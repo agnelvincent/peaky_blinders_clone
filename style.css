@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+}
+body {
+    background-color: #171721;
+    font-family: 'Taviraj';
+}
+
+
+
+header{
+    width: 100%;
+    height: 480px;
+    background-image: url(https://peakyblinders.tv/wp-content/uploads/2022/11/PB6_EP01_SC28-32_MS_15.02.21__1995-scaled.jpg);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0px -100px 50px  #171721 ;
+    background-color: #171721;
+}
+
+.headcontent{
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px;
+    padding-top: 100px;
+}
+
+.toggle{
+    margin-left: 10px;
+    display: flex;
+    width: 20px;
+    height: 22px;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.toggle img{
+    width: 50px;
+    height: 40px;
+}
+
+
+header img{
+    width: 220px;
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+header h3{
+    color: #fff;
+    
+}
+
+.shadow{
+    width: 100%;
+    height: 30px;
+    box-shadow: 0px -100px 50px  #171721 ;
+    background-color: #171721;
+    position: relative;
+    /* margin-top: 70px; */
+    /* z-index: 300; */
+    /* filter: blur(100px); */
+}
+
+.first{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 350px;
+    border: #554d4d 0.00002px;
+    box-shadow: 3px 3px 9px rgba(0, 0, 0, 0.3);
+    border-style:dotted ;
+    position: relative;
+}
+
+.first img{
+    padding-left: 70px;
+    width: 493px;
+    height: 280px;
+    padding: 40px;
+}
+
+.textes{
+    position: absolute;
+    top: 130px;
+    left: 500px;
+    color: #fff;
+    font-weight: 500px;
+}
+
+.container{
+    margin-top: 100px;
+    display: grid;
+    grid-template-rows: 630px 630px 630px 630px 630px 630px;
+}
+
+.con{
+    display: flex;
+    width: 100%;
+    height: 550px;
+}
+
+.concon{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    font-weight: 0;
+    text-shadow: #171721;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.diamond{
+    margin-top: 32px;
+    width: 50px;
+}
+
+.buttonn{
+    display: flex;
+    justify-content: center;
+}
+.follow{
+    display: flex;
+    border-radius: 5px;
+    border: none;
+    border-color: #408bd1;
+    background-color: #408bd1;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 40px;
+    text-decoration: underline;
+    color: #fff;
+}
+
+.follow svg{
+    width: 25px;
+    height: 25px;
+    margin-right: 2px;
+    color: #fff;
+}
+
+
+.contai{
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    background-image: url(https://peakyblinders.tv/wp-content/uploads/2022/11/PB6_EP01_SC28-32_MS_15.02.21__1995-scaled.jpg);
+    background-size: cover;
+    background-position: center;
+    filter: blur(40px);
+}
+
+.footer{
+    margin: 40px;
+    height: 300px;
+}
+
+.footer img{
+    width: 120px;
+    height: 80px;
+    position: relative;
+}
+
+.footerlist{
+    display: flex;
+    width: 90%;
+    height: 100px;
+    margin-left: 70px;
+    margin-top: 192px;
+    text-decoration: underline;
+    font-size: 25px;
+    color: white;
+    justify-content:space-between ;
+    position: relative;
+}
+
+.footer ul{
+    display: flex;
+    list-style: none;
+    gap: 15px;
+    margin-top: 3px;
+}
+
+.last{
+    display: flex;
+    width: 90%;
+    margin-left: 70px;
+    margin-top: 5px;
+    color: #fff;
+    position: relative;
+}
+
+.iconss{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.iconss .fb{
+    width: 40px;
+    height: 40px;
+    margin-top: 12px;
+    margin-right: 11px;
+}
+
+.iconss .insta{
+    width: 25px;
+    height: 25px;
+    margin-top: 19px;
+}
+
+.iconss .twitter{
+    width: 60px;
+    height: 60px;
+}
+
+.lastcop{
+    width: 90%;
+}
+.last .ppp{
+    text-decoration: underline;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.last p{
+    font-size: 16px;
+}
+
+.pppp{
+    position: relative;
+    color: white;
+    text-decoration: underline;
+    margin-left: 30px;
+}
+
+
+
+
